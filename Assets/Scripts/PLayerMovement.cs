@@ -1,13 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem.Utilities;
 
 public class PLayerMovement : MonoBehaviour
 {
     [SerializeField] float moveSpeed;
     [SerializeField] Vector2 movementDirection;
-    [SerializeField] Rigidbody2D rb;
 
+    readonly int moveX = Animator.StringToHash("moveX");
+    readonly int moveY = Animator.StringToHash("moveY");
+    readonly int isMoving = Animator.StringToHash("isMoving");
+
+    Animator anim;
+    Rigidbody2D rb;
     PlayerActions actions;
     
 
@@ -15,11 +21,21 @@ public class PLayerMovement : MonoBehaviour
     {
         actions = new PlayerActions();
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void ReadMovment()
     {
         movementDirection = actions.Movement.Move.ReadValue<Vector2>().normalized;
+        if (movementDirection == Vector2.zero )
+        {
+            anim.SetBool(isMoving, false);
+            return;
+        }
+        anim.SetBool(isMoving, true);
+        anim.SetFloat(moveX, movementDirection.x);
+        anim.SetFloat(moveY, movementDirection.y);
+
     }
 
     private void Update()
