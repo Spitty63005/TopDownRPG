@@ -1,42 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem.Utilities;
 
-public class PLayerMovement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] float moveSpeed;
     [SerializeField] Vector2 movementDirection;
 
-    readonly int moveX = Animator.StringToHash("moveX");
-    readonly int moveY = Animator.StringToHash("moveY");
-    readonly int isMoving = Animator.StringToHash("isMoving");
-
-    Animator anim;
     Rigidbody2D rb;
     PlayerActions actions;
-    
+    PlayerAnimations animations;
+
 
     private void Awake()
     {
         actions = new PlayerActions();
+        animations = new PlayerAnimations();
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
     }
 
     void ReadMovment()
     {
         movementDirection = actions.Movement.Move.ReadValue<Vector2>().normalized;
-        if (movementDirection == Vector2.zero )
+        if (movementDirection == Vector2.zero)
         {
-            anim.SetBool(isMoving, false);
+
+            animations.HandleMoveBoolAnimation(false);
             return;
         }
-        anim.SetBool(isMoving, true);
-        anim.SetFloat(moveX, movementDirection.x);
-        anim.SetFloat(moveY, movementDirection.y);
+        animations.HandleMoveBoolAnimation(true);
+        animations.HandingMovingAnimation(movementDirection);
+
 
     }
+
 
     private void Update()
     {
