@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.RestService;
 using UnityEngine;
 
 public class PlayerAnimations : MonoBehaviour
@@ -8,6 +9,7 @@ public class PlayerAnimations : MonoBehaviour
     readonly int moveX = Animator.StringToHash("moveX");
     readonly int moveY = Animator.StringToHash("moveY");
     readonly int isMoving = Animator.StringToHash("isMoving");
+    readonly int revived = Animator.StringToHash("revived");
 
     Animator anim;
 
@@ -22,7 +24,7 @@ public class PlayerAnimations : MonoBehaviour
         anim.SetBool(isMoving, value);
     }
 
-    public void HandingMovingAnimation(Vector2 dir)
+    public void HandlingMovingAnimation(Vector2 dir)
     {
         anim.SetFloat(moveX, dir.x);
         anim.SetFloat(moveY, dir.y);
@@ -31,6 +33,13 @@ public class PlayerAnimations : MonoBehaviour
     public void HandleDeadTrigger()
     {
         anim.SetTrigger(gotKilled);
+    }
+
+    public void ResetPlayerAnimation()
+    {
+        print("dwadfwa");
+        anim.SetTrigger(revived);
+        HandlingMovingAnimation(Vector2.down);
     }
 
 }

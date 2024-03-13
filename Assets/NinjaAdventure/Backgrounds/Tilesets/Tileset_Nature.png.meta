@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,1393 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Tileset_Nature_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c829bbccd4e31ba4a9ee2ea180f29aa7
+      internalID: -556446253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 189
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a0183acd9c9ba4f9a29a111ada9bd2
+      internalID: 1419840010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 189
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990ace7463fa2364daedadb25b5cab8b
+      internalID: 1435617287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 188
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323b62e43d2e2e54a97d0f7f79f6c4a9
+      internalID: -596496879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 188
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3188c582cd7824e989f0cafe61d991
+      internalID: 319670307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 188
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0db066868824b543a70ecacf393a0a5
+      internalID: 1553157652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 191
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aaf3dfa4b5d3ee40b7ceaa2bef08f53
+      internalID: 1874174482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 191
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b41603b5c74fd429215c51eb0e6b2e
+      internalID: -1119290387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_8
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 204
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f0e35a85caaa3458d4a1562fd489cb
+      internalID: 976269981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_9
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 204
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affad0bf572268b4c8073dc5c0659743
+      internalID: -936718937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_10
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 188
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7553d9f773743104f8f550a7d3cdf0c0
+      internalID: -1701522694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_11
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 188
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e1225449d7a46418eadd44e72aa785
+      internalID: 1467573618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_12
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 188
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f27cea62dfc6e4883f771f0c3908f6
+      internalID: -953303813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dde5c8ed9a77c4ebb7d03dd59663f8
+      internalID: 1343736795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_14
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 140
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc927a002a298f4c8862834174781c0
+      internalID: 126485467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_15
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 140
+        width: 61
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db292ca3fe84e947867ef44f1a9373d
+      internalID: 1076459202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 140
+        width: 61
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ee6b119231f4d4b89c212120688dc9
+      internalID: 679689562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_17
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 141
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7434b58b8fe4c0d41bb7af5c009f60bc
+      internalID: -22251714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_18
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 140
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c683e6b8aaccbdb4bb4aab1f0ce05e26
+      internalID: 753280097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_19
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 141
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42d4f06a1b38034fba3f70e2c668654
+      internalID: 25764825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_20
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 140
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4456247fa4a33ae4e979fe629bbb86b8
+      internalID: -2034990111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 91
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f4b3cd6c651914c876a91c19f8c4da
+      internalID: 415101776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_22
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 91
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819e8a20472aa944b9c4c3955f9340b2
+      internalID: -1119247634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_23
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 91
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf0bf0dafa83064d90db9fc75ed5903
+      internalID: -805455230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_24
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 91
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6f9614904727844bd3c27ee08459ae
+      internalID: 499264486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_25
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 91
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917b0e7ab0700c2428f192c68e8c4543
+      internalID: 1326742668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_26
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 91
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebb56dfd9d97914aaa94ab4c3604843
+      internalID: 53908025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_27
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 60
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d3d9c38538ede47969bbf3866c88ec
+      internalID: 1282021535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 61
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a7d226c8b44204a8a4cc1be1eb41df
+      internalID: -1463483779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_29
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 61
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669f35e42c07e3e4e9ed77cfb2744f0f
+      internalID: -261624111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_30
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 62
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7964d7dc7ccba43a439938c6fe3481
+      internalID: -1118365039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 62
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106f30e383e17704abd59113fe301d2f
+      internalID: 384502496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 60
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3d90f90bf89eb4ca2d9fe218766500
+      internalID: 1379967798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_33
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 61
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc060fc5179ae1042a0f3c2a0c190863
+      internalID: -1629421836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_34
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 62
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b50a5629d732334185de6b36a3500f8
+      internalID: -1326094498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_35
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 61
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bfddea7ac432249a65244ac69bd086
+      internalID: 543836582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_36
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 63
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5119255ba33227547af7ae8c8e7ba676
+      internalID: -1128205056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_37
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 63
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431c7046bd06b3f4dac72f6fb1b9f6a0
+      internalID: -1102486051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_38
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 61
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1224d0af4131f34479ccded516ca6e42
+      internalID: -1347597013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_39
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 66
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862bcc16d7bc359419d03cc410941b85
+      internalID: 902095393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 45
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d0917228a048740a56933b30eadabd
+      internalID: -553070887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 44
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2aa21d4c738f494d914af099edc62a9
+      internalID: 390847071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 44
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659432b959fe30e4895bfc06f010c202
+      internalID: 39464420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_43
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 45
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004fbd3f88b92604ba8c41b0f2f2d868
+      internalID: 1503870920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 45
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f43ad2e858fa946b10f185b89e77d0
+      internalID: -446490962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_45
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 45
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92093135e73aafd4386f403b40ebfb05
+      internalID: -387215880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 44
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ee9a8bb17c4ad4aa3ca37519cbd552
+      internalID: -1593526316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_47
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 44
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e682ae833d8084381027ca7c128762
+      internalID: 255728701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 45
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7077d435ca90ea543a3ffff73b478f1e
+      internalID: -944677445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_49
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 46
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6508cca2e7f4c42aa8abb7133a2867
+      internalID: 119794120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_50
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 29
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8893256c28b7b942b2b7766a8b78c7f
+      internalID: -707242210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 29
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9973d09cf78ff4c9d7ab7d800b21a8
+      internalID: -2086349348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_52
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 30
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec63a90b54993b44c894d5acc141ef14
+      internalID: -805239229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_53
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 29
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96b5eda4559f2b46910514fe2c12507
+      internalID: 71133191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_54
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 29
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f496eb78762b51e41be209e9cb39601a
+      internalID: 1807757021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_55
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 30
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e164956a15a684c8b2a07e85fe2492
+      internalID: -1867077473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_56
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 28
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34cf657d5dd4c94890ecd2a04b62b62
+      internalID: 338088831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_57
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 29
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85256fdcfce0ec041a557119407f1311
+      internalID: -1182656154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_58
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 29
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73ea45311a8bb1428ef655eccbd4862
+      internalID: 1535770701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_59
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 31
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eed66cb88aed4a4ba8401cd489e5690
+      internalID: 1511452194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_60
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 33
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce8238de46238a4dadc536a60d53f5a
+      internalID: 182093085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_61
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 33
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ded9ce4a60fde74ba3bae74fbc2cb4d
+      internalID: -2088369028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_62
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 12
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d984c2a8c01f34aa310d4e76573bf6
+      internalID: -551818526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 12
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f456f23c47e9340a0b151af93d8474
+      internalID: 439081208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 13
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1169b8a0f2b051b4ead377812585e798
+      internalID: 1057396038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Nature_65
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7675bfd6ad3f256488107c475e692824
+      internalID: 1093977028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1505,73 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tileset_Nature_0: -556446253
+      Tileset_Nature_1: 1419840010
+      Tileset_Nature_10: -1701522694
+      Tileset_Nature_11: 1467573618
+      Tileset_Nature_12: -953303813
+      Tileset_Nature_13: 1343736795
+      Tileset_Nature_14: 126485467
+      Tileset_Nature_15: 1076459202
+      Tileset_Nature_16: 679689562
+      Tileset_Nature_17: -22251714
+      Tileset_Nature_18: 753280097
+      Tileset_Nature_19: 25764825
+      Tileset_Nature_2: 1435617287
+      Tileset_Nature_20: -2034990111
+      Tileset_Nature_21: 415101776
+      Tileset_Nature_22: -1119247634
+      Tileset_Nature_23: -805455230
+      Tileset_Nature_24: 499264486
+      Tileset_Nature_25: 1326742668
+      Tileset_Nature_26: 53908025
+      Tileset_Nature_27: 1282021535
+      Tileset_Nature_28: -1463483779
+      Tileset_Nature_29: -261624111
+      Tileset_Nature_3: -596496879
+      Tileset_Nature_30: -1118365039
+      Tileset_Nature_31: 384502496
+      Tileset_Nature_32: 1379967798
+      Tileset_Nature_33: -1629421836
+      Tileset_Nature_34: -1326094498
+      Tileset_Nature_35: 543836582
+      Tileset_Nature_36: -1128205056
+      Tileset_Nature_37: -1102486051
+      Tileset_Nature_38: -1347597013
+      Tileset_Nature_39: 902095393
+      Tileset_Nature_4: 319670307
+      Tileset_Nature_40: -553070887
+      Tileset_Nature_41: 390847071
+      Tileset_Nature_42: 39464420
+      Tileset_Nature_43: 1503870920
+      Tileset_Nature_44: -446490962
+      Tileset_Nature_45: -387215880
+      Tileset_Nature_46: -1593526316
+      Tileset_Nature_47: 255728701
+      Tileset_Nature_48: -944677445
+      Tileset_Nature_49: 119794120
+      Tileset_Nature_5: 1553157652
+      Tileset_Nature_50: -707242210
+      Tileset_Nature_51: -2086349348
+      Tileset_Nature_52: -805239229
+      Tileset_Nature_53: 71133191
+      Tileset_Nature_54: 1807757021
+      Tileset_Nature_55: -1867077473
+      Tileset_Nature_56: 338088831
+      Tileset_Nature_57: -1182656154
+      Tileset_Nature_58: 1535770701
+      Tileset_Nature_59: 1511452194
+      Tileset_Nature_6: 1874174482
+      Tileset_Nature_60: 182093085
+      Tileset_Nature_61: -2088369028
+      Tileset_Nature_62: -551818526
+      Tileset_Nature_63: 439081208
+      Tileset_Nature_64: 1057396038
+      Tileset_Nature_65: 1093977028
+      Tileset_Nature_7: -1119290387
+      Tileset_Nature_8: 976269981
+      Tileset_Nature_9: -936718937
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
